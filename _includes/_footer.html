@@ -1,0 +1,63 @@
+<div class="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-sm-12">
+        <ul class="footer-links clearfix col-sm-3">
+          <li class="category-title title-1">Products</li>
+          <li><a href="{{site.pm.root}}/postman" class="#{current.source === 'postman' ? 'active' : ''}">Postman</a></li>
+          <li><a href="{{site.pm.root}}/pro" class="#{current.source === 'pro' ? 'active' : ''}">Postman Pro</a></li>
+          <li><a href="{{site.pm.root}}/enterprise" class="#{current.source === 'enterprise' ? 'active' : ''}">Enterprise</a></li>
+          <li><a href="{{site.pm.root}}/publishers" class="#{current.source === 'publishers' ? 'active' : ''}">Publishers</a></li>
+          <li><a href="{{site.pm.root}}/apps" class="#{current.source === 'apps' ? 'active' : ''}">Download the app</a></li>
+        </ul>
+        <ul class="footer-links clearfix col-sm-3">
+          <li>&nbsp;</li>
+          <li><a href="{{site.pm.root}}/docs" class="#{current.source === 'docs' ? 'active' : ''}">Docs</a></li>
+          <li><a href="{{site.pm.root}}/monitoring" class="#{current.source === 'monitoring' ? 'active' : ''}">Monitoring</a></li>
+          <li><a href="{{site.pm.root}}/integrations" class="#{current.source === 'integrations' ? 'active' : ''}">Integrations</a></li>
+          <li><a href="{{site.pm.root}}/apps">Release Notes</a></li>
+        </ul>
+        <ul class="footer-links clearfix col-sm-3">
+          <li class="category-title title-2">Company</li>
+          <li><a href="{{site.pm.root}}/company" class="#{current.source === 'company' ? 'active' : ''}">About</a></li>
+          <li><a href="{{site.pm.root}}/jobs/" class="#{current.path[0] === 'jobs' ? 'active' : ''}">Jobs</a></li>
+          <li><a href="{{site.pm.root}}/press" class="#{current.source === 'press' ? 'active' : ''}">Press</a></li>
+          <li><a href="{{site.pm.root}}/contact" class="#{current.source === 'contact' ? 'active' : ''}">Contact</a></li>
+        </ul>
+        <ul class="footer-links clearfix col-sm-3">
+          <li class="category-title title-3">Resources</li>
+          <li><a href="{{site.pm.root}}/community" class="#{current.source === 'community' ? 'active' : ''}">Community</a></li>
+          <li><a href="{{site.pm.root}}/community#support">Support</a></li>
+          <li><a href="http://blog.getpostman.com" target="_blank">Blog</a></li>
+          <li><a href="{{site.pm.root}}/security" target="_blank">Security</a></li>
+          <li><a href="{{site.pm.root}}/licenses/privacy" class="#{current.path[0] === 'licenses' ? 'active' : ''}">Privacy and Terms</a></li>
+        </ul>
+        <ul class="footer-links clearfix col-sm-3">
+          <li>&nbsp;</li>
+          <li><a href="http://pages.getpostman.com/Sticker-Landing-Page.html">Want stickers?</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <ul class="footer-social-links">
+          <li><a class="pm-social-media pm-rss-icon" href="http://blog.getpostman.com/", target="_blank"></a></li>
+          <li><a class="pm-social-media pm-gplus-icon" href="https://plus.google.com/+Getpostman", target="_blank"></a></li>
+          <li><a class="pm-social-media pm-linkedin-icon" href="https://github.com/postmanlabs", target="_blank"></a></li>
+          <li><a class="pm-social-media pm-twitter-icon" href="https://twitter.com/postmanclient", target="_blank"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="footer-branding">
+          <a class="pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedin" href="{{site.pm.gs}}/signup?redirect=web">Sign in</a>
+          <a class="pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedout" href="{{site.pm.gs}}/">Dashboard</a>
+
+          <span>&copy; 2017 Postdot Technologies, Inc.</span>
+          <span>All Rights Reserved </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
